@@ -22,6 +22,7 @@ import com.kylesemporium.app.ui.AddProductScreen
 import com.kylesemporium.app.ui.ForgotPasswordScreen
 import com.example.kylesemporium.ui.Screens.HomeScreen
 import com.kylesemporium.app.ui.LoginScreen
+import com.kylesemporium.app.ui.PaymentScreen
 import com.kylesemporium.app.ui.SignUpScreen
 import com.kylesemporium.app.ui.theme.KylesEmporiumTheme
 
@@ -55,5 +56,6 @@ fun AppNavigation(auth: FirebaseAuth) {
         composable("forgot_password") { ForgotPasswordScreen(navController, auth) }
         composable("home") { HomeScreen(navController, auth) }
         composable("add_product") { AddProductScreen(navController) }
+        composable("payment/{productId}") { PaymentScreen(navController, it.arguments?.getString("productId") ?: "") }
     }
 }
