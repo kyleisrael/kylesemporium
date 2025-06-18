@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362138997391",
+    "project_id": "kylesemporium1",
+    "storage_bucket": "kylesemporium1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362138997391:android:53d05262e65cb46b2016fa",
+        "android_client_info": {
+          "package_name": "com.example.kylesemporium"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7CoUl0CVpWkttCoS9RS_l2YJVmm8bOAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
