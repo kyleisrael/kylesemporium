@@ -20,10 +20,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.kylesemporium.app.ui.AddProductScreen
 import com.kylesemporium.app.ui.ForgotPasswordScreen
-import com.example.kylesemporium.ui.Screens.HomeScreen
+import com.example.kylesemporium.ui.screens.HomeScreen
 import com.kylesemporium.app.ui.LoginScreen
 import com.kylesemporium.app.ui.PaymentScreen
-import com.kylesemporium.app.ui.SignUpScreen
+import com.example.kylesemporium.ui.screens.SignUpScreen
 import com.kylesemporium.app.ui.theme.KylesEmporiumTheme
 
 class MainActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package com.kylesemporium.app.ui
+package com.example.kylesemporium.ui.screens
 
 import android.widget.Toast
 import androidx.compose.foundation.background
