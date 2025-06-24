@@ -1,4 +1,4 @@
-package com.kylesemporium.app.ui
+package com.example.kylesemporium.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

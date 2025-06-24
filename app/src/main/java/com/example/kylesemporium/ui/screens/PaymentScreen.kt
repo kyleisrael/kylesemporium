@@ -1,4 +1,4 @@
-package com.kylesemporium.app.ui
+package com.example.kylesemporium.ui.screens
 
 import android.widget.Toast
 import androidx.compose.foundation.background
@@ -16,14 +16,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.functions.ktx.functions
 import com.google.firebase.ktx.Firebase
 import com.kylesemporium.app.data.Product
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
-import java.util.*
 
 @Composable
 fun PaymentScreen(navController: NavController, productId: String) {
